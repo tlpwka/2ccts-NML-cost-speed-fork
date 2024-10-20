@@ -1,0 +1,6 @@
+VERSION        :3.1
+VERSION_STRING :3.1
+TITLE          :2cc Trains In NML 3.1
+FILENAME       :2ccts.grf
+REPO_HASH      :619944a30dbe
+NEWGRF_VERSION :7664
