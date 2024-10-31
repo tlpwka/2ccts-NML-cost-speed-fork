@@ -15,7 +15,7 @@
 
 //The old set also allowed carrying of MAIL and Valuables in passenger trains
 #define CARGODEF_PASSENGERS refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_ARMOURED); non_refittable_cargo_classes: 0;
-
+#define CARGODEF_PASSENGERS_GDS refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_ARMOURED, CC_EXPRESS, CC_PIECE_GOODS); cargo_allow_refit: [PASS, MAIL, GOOD, VALU, GOLD, DIAM, TOUR, FOOD]; non_refittable_cargo_classes: 0;
 //Metro does not allow it
 #define CARGODEF_PASSENGERS_ONLY refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_ARMOURED); non_refittable_cargo_classes: 0;
 
@@ -35,7 +35,7 @@
 
 #define CARGODEF_OPEN_WAGON refittable_cargo_classes: bitmask(CC_BULK); non_refittable_cargo_classes: 0; cargo_allow_refit: [COAL, GRAI, WOOD, IORE, WHEA, FRUT, MAIZ, CORE, SUGR, TOFF, CTCD, BUBL, AORE, CERE, CLAY, CMNT, GRVL, LIME, OLSD, POTA, SAND, SCMT]; cargo_disallow_refit: [PASS, MAIL, TOUR, OIL_, LVST, GOOD, STEL, VALU, PAPR, FOOD, GOLD, RUBR, WATR, DIAM, TOYS, BATT, SWET, COLA, PLST, FZDR, BEER, BDMT, BRCK, CERA, COPR, DYES, ENSP, FERT, FICR, FISH, FMSP, GLAS, JAVA, MILK, MNSP, PETR, PLAS, RCYC, RFPR, SGBT, SGCN, SULP, VEHI, VPTS, WDPR, WOOL, URAN, YETI, YETY];
 
-#define CARGODEF_GONDOLA refittable_cargo_classes: bitmask(CC_BULK); non_refittable_cargo_classes: 0; cargo_allow_refit: [COAL, GRAI, WOOD, IORE, WHEA, MAIZ, CORE, SUGR, TOFF, CTCD, AORE, CERE, CLAY, CMNT, GRVL, LIME, POTA, SAND, SCMT, WDPR]; cargo_disallow_refit: [PASS, MAIL, TOUR, OIL_, LVST, GOOD, STEL, VALU, PAPR, FOOD, GOLD, RUBR, FRUT, WATR, DIAM, TOYS, BATT, SWET, COLA, BUBL, PLST, FZDR, BEER, BDMT, BRCK, CERA, COPR, DYES, ENSP, FERT, FICR, FISH, FMSP, GLAS, JAVA, MILK, MNSP, OLSD, PETR, PLAS, RCYC, RFPR, SGBT, SGCN, SULP, VEHI, VPTS, WOOL, URAN, YETI, YETY];
+#define CARGODEF_GONDOLA refittable_cargo_classes: bitmask(CC_BULK); non_refittable_cargo_classes: 0; cargo_allow_refit: [COAL, GRAI, WOOD, IORE, WHEA, MAIZ, CORE, SUGR, TOFF, CTCD, AORE, CERE, CLAY, CMNT, GRVL, LIME, POTA, SAND, SCMT, WDPR, STEL]; cargo_disallow_refit: [PASS, MAIL, TOUR, OIL_, LVST, GOOD, VALU, PAPR, FOOD, GOLD, RUBR, FRUT, WATR, DIAM, TOYS, BATT, SWET, COLA, BUBL, PLST, FZDR, BEER, BDMT, BRCK, CERA, COPR, DYES, ENSP, FERT, FICR, FISH, FMSP, GLAS, JAVA, MILK, MNSP, OLSD, PETR, PLAS, RCYC, RFPR, SGBT, SGCN, SULP, VEHI, VPTS, WOOL, URAN, YETI, YETY];
 
 #define CARGODEF_SILO refittable_cargo_classes: bitmask(CC_POWDERIZED); non_refittable_cargo_classes: 0; cargo_allow_refit: [GRAI, WHEA, MAIZ, SUGR, CERE, OLSD, POTA, SULP, URAN]; cargo_disallow_refit: [PASS, MAIL, TOUR, COAL, OIL_, LVST, GOOD, WOOD, IORE, STEL, VALU, PAPR, FOOD, GOLD, RUBR, FRUT, CORE, WATR, DIAM, TOYS, BATT, SWET, TOFF, COLA, CTCD, BUBL, PLST, FZDR, AORE, BEER, BDMT, BRCK, CERA, CLAY, CMNT, COPR, DYES, ENSP, FERT, FICR, FISH, FMSP, GLAS, GRVL, JAVA, LIME, MILK, MNSP, PETR, PLAS, RCYC, RFPR, SAND, SCMT, SGBT, SGCN, VEHI, VPTS, WDPR, WOOL, YETI, YETY];
 
