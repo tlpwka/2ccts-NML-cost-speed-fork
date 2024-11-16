@@ -1,0 +1,16 @@
+################################################################
+# Definitions needed for tar releases
+# This part is automatically generated
+################################################################
+REPO_REVISION := 7664
+NEWGRF_VERSION := 7664
+REPO_HASH := 619944a30dbe
+REPO_VERSION_STRING := 3.1
+REPO_TITLE := 2cc Trains In NML 3.1
+REPO_DATE := 
+REPO_BRANCH := 
+REPO_MODIFIED := 
+REPO_TAGS    := 3.1
+HG := :
+GIT := :
+PYTHON := :
